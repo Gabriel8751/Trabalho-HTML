@@ -1,0 +1,194 @@
+html{
+	scroll-behavior: smooth;
+}
+
+body{
+    margin: 0;
+	background-color: white;
+	font-family: "Nunito", Helvetica, Arial, sans-serif;
+}
+
+a,
+a:hover,
+a:active,
+a:Link,
+a:visited {
+	text-decoration: none;
+	color: black;
+}
+
+hr {
+	border: none;
+	background-color: var(--clr-pink-dark);
+	height: 2px;
+	width: 140px;
+	margin: 20px auto;
+}
+
+p {
+	line-height: 21.82px;
+	padding: 0 10px;
+}
+
+.section-titulo {
+	text-align: center;
+	font-size: 3rem;
+	margin-bottom: 100px;
+}
+
+img {
+	display: block;
+	max-width: 100%
+}
+
+/**********************************/
+/* 1. Menu
+/**********************************/
+.menu-bg {
+	background: rgb(44, 188, 89);
+	color: white;
+}
+
+.menu {
+    font-size: 1.25rem;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	max-width:1980px;
+    width: 100%;
+	margin: 0 auto;
+    padding: 0;
+	flex-wrap: wrap;
+
+}
+
+.menu__logo {
+	margin: 10px;
+    padding: 10px;
+}
+
+.nav__list {
+	display: flex;
+	flex-wrap: wrap;
+	list-style: none;
+}
+
+.nav__list li a{
+	color: white;
+}
+
+.nav__list li a:hover{
+	color:aqua;
+}
+
+.nav__link {
+	padding: 30px;
+    color: white;
+	font-family: "Open Sans";
+	font-size: 1.5rem;
+}
+
+.intro {
+	font-weight: bold;
+	font-size: 3rem;
+	text-align: center;
+	margin: 0 auto;
+	padding: 25px 0;
+}
+
+/**********************************/
+/* 2. Quem somos
+/**********************************/
+
+.geral-qs{
+	max-width:960px;
+	margin: 0 auto;
+}
+
+.somos-c {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+}
+
+.texto-quem-somos {
+	flex: 6 1 160px;
+
+}
+
+.img-somos{
+	flex: 1 1 350px;
+}
+
+/**********************************/
+/* 3. Footer
+/**********************************/
+
+.image-footer{
+	max-width: 100px;
+}
+
+footer{
+	position: static;
+	bottom: 0;
+	font-family: "Open Sans";
+	background: rgb(44, 188, 89);
+	height: auto;
+	width: 100%;
+	color: white;
+}
+
+.footer-content {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	text-align: center;
+}
+
+.footer-content h2{
+	font-size: 1.8rem;
+	font-weight: 300;
+	text-transform: capitalize;
+	line-height: 3rem;
+}
+
+.footer-bottom p{
+	text-align: center;
+	align-items: center;
+	justify-content: center;
+	line-height: 28px;
+	font-size: 20px;
+}
+
+.footer-bottom span{
+	text-transform: uppercase;
+	opacity: .4;
+	font-weight: 500;
+}
+
+.sociais{
+	list-style: none;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.sociais li {
+	margin: 0 12px;
+	font-size: 20px;
+}
+
+.sociais a {
+	text-decoration: none;
+	color: white;
+	width: 15px;
+}
+
+.sociais a i {
+	font-size: 1.9rem;
+}
+
+.sociais a:hover{
+	color: aqua;
+}
