@@ -129,7 +129,7 @@ img {
 }
 
 footer{
-	position: static;
+	position: sticky;
 	bottom: 0;
 	font-family: "Open Sans";
 	background: rgb(44, 188, 89);
